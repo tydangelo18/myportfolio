@@ -1,0 +1,16 @@
+/*Modify background color of nav bar*/
+.bg{
+    background-color: rgb(0, 124, 70);
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: gold;
+} 
+
