@@ -18,60 +18,88 @@
 
     <!--Linked bootstrap file-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!--Google Fonts-->    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">    
 
     <!--Linked style.css file-->
     <link rel="stylesheet" href="assets/style.css">
 
-    
-    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+
 
 </head>
 
 <body>
     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <!--Navbar Header-->
+                <nav class="navbar navbar fixed-top navbar-expand-lg navbar bg">
 
-        <!--Navbar Header-->
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/mylogo.png" width="40" height="35" class="d-inline-block align-top" alt="Logo">
+                    </a>
 
-        <nav class="navbar navbar fixed-top navbar-expand-lg navbar bg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <a class="navbar-brand" href="#">
-                <img src="assets/mylogo.png" width="40" height="35" class="d-inline-block align-top" alt="Logo">
-            </a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                        <ul class="navbar-nav ml-auto">
+                            <div class="d-flex flex-row">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">About Me.<span class="sr-only">(current)</span></a>
+                                </li>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+                                <li class="nav-item">
+                                    <!--Linked to portfolio.html-->
+                                    <a class="nav-link" href="portfolio.html">My Projects.</a>
+                                </li>
 
-                <ul class="navbar-nav ml-auto">
-                    <div class="d-flex flex-row">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-                        </li>
+                                <li class="nav-item">
+                                    <!--Linked to contact.html-->
+                                    <a class="nav-link" href="contact.html">Contact.</a>
+                                </li>
+                            </div>
+                        </ul>
 
-                        <li class="nav-item">
-                            <!--Linked to portfolio.html-->
-                            <a class="nav-link" href="portfolio.html">My Projects</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <!--Linked to contact.html-->
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
                     </div>
-                </ul>
 
+                </nav>
             </div>
-
-        </nav>
-
+        </div>
     </div>
+    
+
+    <br>
+    <br>
+
+    <div class="container-fluid2">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Hi, I'm Ty, and I am a full-stack web developer.</h1>
+            </div>
+        </div>
+    </div>
+
+    <article class="aboutme">
+        <h1 class="whoami">Who Am I?</h1>
+        <section class="detail">
+            <p>Detail-Oriented</p>
+        </section>
+        <section class="team">
+            <p>A team player</p>
+        </section>
+        <section class="motive">
+            <p>A motivator</p>  
+        </section>
+    </article>
+
 
 </body>
 
