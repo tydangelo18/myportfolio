@@ -19,10 +19,10 @@ body {
 } 
 
 .my-container {
-    border: 3px solid black;
+    border: 3px solid #eee;
     width: 575px;
-    background-color: #ffffff;
-    opacity: 0.7;
+    background-color: black;
+    opacity: 0.92;
     padding-right: 3px;
 }
 
@@ -30,7 +30,7 @@ body {
     height: 50px;
     font-style: normal;
     font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: black;
+    color: #eee;
 
 }
 .my-row-bottom {
@@ -39,7 +39,7 @@ body {
     font-weight: bold;
     font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
     font-size: large;
-    color: black;
+    color: #eee;
 }
 
 h1 {
