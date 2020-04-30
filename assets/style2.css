@@ -19,10 +19,10 @@ body {
 
 .project-container {
     border: 3px solid #eee;
-    width: 700px;
+    width: 1000px;
     background-color: black;
     opacity: 0.92;
-    padding-right: 0px;
+    padding-right: 40px;
     padding-left: 40px;
 }
 
@@ -52,6 +52,11 @@ body {
 h2 {
     font-style: normal;
     font-weight: bold;
+}
+
+.coming-soon {
+    border: 3px solid #eee;
+    padding: 0px;
 }
 
 .anchorlinked {

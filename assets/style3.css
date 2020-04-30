@@ -36,6 +36,12 @@ body {
     padding-top: 10px;
 }
 
+label {
+    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
+    color: #eee;
+    font-weight: lighter;
+}
+
 
 .anchorlinked {
     font-style: normal;
