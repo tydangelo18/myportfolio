@@ -8,7 +8,12 @@ Home page Wireframe
 
 
 NavBar: Used a Bootstrap navbar snippet to create general navbar. 
+
 NavBar Logo: Created Logo in Adobe Illustrator, used navbar-brand to put logo in my navbar. 
+
 NavBar Links: Used Icons from Icons8.com for LinkedIn and Github Logos in my navbar. Used navbar-brand for these as well.
+
 Navbar Navigation: Used ml-auto to shift About Me, Projects, and Contact to the far right of the NavBar. 
+
+Used Bootstrap as well for the Grid Layout of my content-carrying containers. 
 
