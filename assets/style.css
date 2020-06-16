@@ -1,84 +1,18 @@
-/*Modify background color of nav bar*/
-.bg{
-    background-color: black;
+#greetingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
 }
 
-a {
-    color:#eee;
-    font-weight: bolder;
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    font-size: large;
-    height: 40px;
+#subtitleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
 }
-
-body {
-    background-image: url(pacific-ocean-cropped.JPG);
-    background-size: 100%;
-    margin: 100px;
-} 
-
-.my-container {
-    border: 3px solid #eee;
-    width: 575px;
-    background-color: black;
-    opacity: 0.92;
-    padding-right: 3px;
-}
-
-.my-row-top {
-    height: 50px;
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: #eee;
-
-}
-.my-row-bottom {
-    height: 335px;
-    font-style: normal;
-    font-weight: bold;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    font-size: large;
-    color: #eee;
-}
-
-h1 {
-    margin: 7px;
-    font-weight: bolder;
-    font-size: 40px;
-}
-
-.anchorlinked {
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive; 
-    font-size: 13px;
-}
-
-.anchorgit {
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive; 
-    font-size: 13px;
-}
-
-.linked, .git {
-    margin: 3px;
-}
-
-
-/*MEDIA QUERY*/
-@media screen and (max-width: 700px) {
-}
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
