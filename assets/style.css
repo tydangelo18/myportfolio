@@ -1,10 +1,22 @@
+body {
+  background-color: rgb(214, 214, 255);
+}
+
+html {
+  background-color: rgb(214, 214, 255);
+}
+
+.navbar {
+  min-height: 5.25rem;
+}
 #greetingDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
   margin-top: 20px;
-  font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+  color: #000000;
 }
 
 #subtitleDiv {
@@ -13,6 +25,49 @@
   align-items: center;
   padding-top: 10px;
   padding-bottom: 50px;
-  margin-bottom: 50px;
-  font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
+  margin-bottom: 100px;
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}
+
+#spaceLeft {
+  margin-right: -35px;
+}
+
+#projectsCard {
+  margin-right: 40px;
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}
+#aboutMeCard {
+  margin-right: 40px;
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}
+
+#contactCard {
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}
+
+#projectsLabel {
+  padding-left: 73px;
+  padding-top: 106px;
+}
+#aboutMeLabel {
+  padding-left: 66px;
+  padding-top: 106px;
+}
+#contactLabel {
+  padding-left: 74px;
+  padding-top: 106px;
+}
+
+.card {
+  height: 250px;
+  background-color: #000000;
+  opacity: 0.78;
+  border: 3px solid #ffffff;
+}
+
+#projectsTitle,
+#aboutMeTitle,
+#contactTitle {
+  color: #ffffff;
 }
