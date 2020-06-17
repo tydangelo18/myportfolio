@@ -1,78 +1,80 @@
-.bg{
-    background-color: black;
-}
-
-a {
-    color:#eee;
-    font-weight: bolder;
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    font-size: large;
-    height: 40px;
-}
-
 body {
-    background-image: url(columbia-river-cropped.JPG);
-    background-size: 100%;
-    margin: 100px;
+  background-color: rgb(169, 169, 184);
 }
 
-.project-container {
-    border: 3px solid #eee;
-    width: 1000px;
-    background-color: black;
-    opacity: 0.92;
-    padding-right: 40px;
-    padding-left: 40px;
+html {
+  background-color: rgb(169, 169, 184);
 }
 
-.project-row-top {
-    height: 50px;
-    font-style: normal;
-    font-weight: bolder;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: #eee;
+.navbar {
+  min-height: 5rem;
+}
+#titleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 35px;
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+  color: #000000;
 }
 
-.subtext {
-    font-style: normal;
-    font-weight: lighter;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: #eee;
-    font-size: 13px;
+.icon {
+  margin-right: 15px;
 }
 
-.project-row-bottom {
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: #eee;
+.passwordPicDiv {
+  display: flex;
+  justify-content: center;
 }
 
-h2 {
-    font-style: normal;
-    font-weight: bold;
+.passwordPic {
+  width: 600px;
+  height: 300px;
 }
 
-.coming-soon {
-    border: 3px solid #eee;
-    padding: 0px;
+.passwordTitleDiv,
+.passwordLiveDiv,
+.plannerTitleDiv,
+.plannerLiveDiv,
+.springboardTitleDiv,
+.springboardLiveDiv {
+  display: flex;
+  justify-content: center;
 }
 
-.anchorlinked {
-        font-style: normal;
-        font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive; 
-        font-size: 13px;
+.plannerPicDiv {
+  display: flex;
+  justify-content: center;
 }
-    
-.anchorgit {
-        font-style: normal;
-        font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive; 
-        font-size: 13px;
+
+.plannerPic {
+  width: 600px;
+  height: 300px;
 }
-    
-.linked, .git {
-        margin: 3px;
-        color: #eee;
+
+.springboardPicDiv {
+  display: flex;
+  justify-content: center;
 }
-    
+
+.springboardPic {
+  width: 600px;
+  height: 300px;
+}
+
+#projects,
+#aboutMe {
+  border-right: 3px solid rgb(141, 141, 141);
+  margin-right: 10px;
+  padding-left: 83px;
+}
+
+#contact {
+  margin-right: 10px;
+  padding-left: 82px;
+}
+
+.navOption {
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}

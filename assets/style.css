@@ -1,20 +1,20 @@
 body {
-  background-color: rgb(214, 214, 255);
+  background-color: rgb(169, 169, 184);
 }
 
 html {
-  background-color: rgb(214, 214, 255);
+   background-color: rgb(169, 169, 184);
 }
 
 .navbar {
-  min-height: 5.25rem;
+  min-height: 5rem;
 }
 #greetingDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  margin-top: 20px;
+  margin-top: 35px;
   font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
   color: #000000;
 }
@@ -27,47 +27,37 @@ html {
   padding-bottom: 50px;
   margin-bottom: 100px;
   font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+  text-align: center;
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 10px;
+  word-wrap: break-word;
 }
 
-#spaceLeft {
-  margin-right: -35px;
+#avatarDiv {
+  display: flex;
+  justify-content: center;
 }
 
-#projectsCard {
-  margin-right: 40px;
+.avatar {
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 50%;
+  
+}
+
+#projects, #aboutMe {
+  border-right: 3px solid rgb(141, 141, 141);
+  margin-right: 10px;
+  padding-left: 83px;
+}
+
+#contact {
+  margin-right: 10px;
+  padding-left: 82px;
+}
+
+.navOption {
   font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
-}
-#aboutMeCard {
-  margin-right: 40px;
-  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
-}
-
-#contactCard {
-  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
-}
-
-#projectsLabel {
-  padding-left: 73px;
-  padding-top: 106px;
-}
-#aboutMeLabel {
-  padding-left: 66px;
-  padding-top: 106px;
-}
-#contactLabel {
-  padding-left: 74px;
-  padding-top: 106px;
-}
-
-.card {
-  height: 250px;
-  background-color: #000000;
-  opacity: 0.78;
-  border: 3px solid #ffffff;
-}
-
-#projectsTitle,
-#aboutMeTitle,
-#contactTitle {
-  color: #ffffff;
 }
