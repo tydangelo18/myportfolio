@@ -15,6 +15,7 @@ html {
   align-items: center;
   padding-top: 20px;
   margin-top: 35px;
+  margin-bottom: 35px;
   font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
   color: #000000;
 }
@@ -26,41 +27,51 @@ html {
 .passwordPicDiv {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .passwordPic {
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
 }
 
 .passwordTitleDiv,
-.passwordLiveDiv,
 .plannerTitleDiv,
+.springboardTitleDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.passwordLiveDiv,
 .plannerLiveDiv,
-.springboardTitleDiv,
 .springboardLiveDiv {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+ 
 }
 
 .plannerPicDiv {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .plannerPic {
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
 }
 
 .springboardPicDiv {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .springboardPic {
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
 }
 
 #projects,
