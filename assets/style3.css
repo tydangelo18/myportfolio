@@ -1,61 +1,72 @@
-.bg{
-    background-color: black;
-}
-
-a {
-    color:#eee;
-    font-weight: bolder;
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    font-size: large;
-    height: 40px;
-}
-
 body {
-    background-image: url(mount-hood-cropped.JPG);
-    background-size: 100%;
-    margin: 100px;
+  background-color: rgb(169, 169, 184);
 }
 
-.contact-container {
-    border: 3px solid #eee;
-    width: 800px;
-    background-color: black;
-    opacity: 0.92;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 40px;
+html {
+  background-color: rgb(169, 169, 184);
 }
 
-.contact-row-top {
-    height: 50px;
-    font-style: normal;
-    font-weight: bolder;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: #eee;
-    padding-top: 10px;
+.navbar {
+  min-height: 5rem;
 }
 
-label {
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive;
-    color: #eee;
-    font-weight: lighter;
+#titleDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #000000;
 }
 
-
-.anchorlinked {
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive; 
-    font-size: 13px;
+#contactTitle {
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+  color: #000000;
 }
 
-.anchorgit {
-    font-style: normal;
-    font-family: 'Baloo Bhaina 2', 'Ubuntu', sans-serif, cursive; 
-    font-size: 13px;
+.icon {
+  margin-right: 15px;
 }
 
-.linked, .git {
-    margin: 3px;
-    color: #eee;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: black;
+}
+
+#email,
+#phone {
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}
+
+.cardGithub,
+.cardLinkedIn {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
 }

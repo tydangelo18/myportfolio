@@ -85,14 +85,14 @@
                         </span>
                     </a>
                     <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://github.com/tydangelo18" id="githubBtn">
+                    <a class="navbar-item" href="https://github.com/tydangelo18" target="null" id="githubBtn">
                         <span class="icon">
                             <!--Each Icon will navigate the user to the corresponding page-->
                             <i class="fab fa-github"></i>
                         </span>
                     </a>
                     <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://www.linkedin.com/in/tydangelo18" id="linkedInBtn">
+                    <a class="navbar-item" href="https://www.linkedin.com/in/tydangelo18" target="null" id="linkedInBtn">
                         <span class="icon">
                             <!--Each Icon will navigate the user to the corresponding page-->
                             <i class="fab fa-linkedin-in"></i>
@@ -105,28 +105,42 @@
     <section>
         <!--Website Avatar-->
         <div class="block" id="avatarDiv">
-            <!--Insert Image Here-->
-            <img class="avatar" src="./assets/Profile Picture.JPG" alt="my avatar">
+            <div class="columns">
+                <div class="column is-12">
+                    <!--Insert Image Here-->
+                    <img class="avatar" src="./assets/Profile Picture.JPG" alt="my avatar">
+                </div>
+            </div>
         </div>
     </section>
 
     <section>
         <!--Greeting-->
         <div class="block" id="greetingDiv">
-            <h1 class="title is-1" id="greetingTitle">Hi, I'm Ty D'Angelo!</h1>
+            <div class="columns">
+                <div class="column is-12">
+                    <h1 class="title is-1" id="greetingTitle">I'm Ty D'Angelo!</h1>
+                </div>
+                
+            </div>
         </div>
     </section>
 
-    <section>
+   <!-- <section>
         <div class="block" id="subtitleDiv">
-            <p class="bio" id="bio">
-                I am a student at the Full Stack Web Development Bootcamp at
-                The University of Texas at Austin. I am interested in transitioning
-                into a career in front-end development. Please check out my projects 
-                and let's get in touch!
-            </p>
+            <div class="columns">
+                <div class="column is-12">
+                    <p class="bio" id="bio">
+                        I am a student at the Full Stack Web Development Bootcamp at
+                        The University of Texas at Austin. I am interested in transitioning
+                        into a career in front-end development. Please check out my projects
+                        and let's get in touch!
+                    </p>
+                </div>
+            </div>
+                    
         </div>
-    </section>
+    </section> -->
 
     <section>
         <div class="block">
@@ -134,7 +148,7 @@
                 <div class="column is-3" id="spaceLeft">
                     <!--Creates Space-->
                 </div>
-                <div class="column is-2" id="projects">
+                <div class="column is-3" id="projects">
                     
                         <!--Works like rows-->
                         <span class="icon">
@@ -142,15 +156,7 @@
                         </span>
                         <a href="projects.html" class="navOption">Projects</a>
                 </div>
-                <div class="column is-2" id="aboutMe">
-                    
-                        <!--Works like rows-->
-                        <span class="icon">
-                            <i class="fas fa-male"></i>
-                        </span>
-                        <a href="#" class="navOption">About Me</a>
-                </div>
-                <div class="column is-2" id="contact"> 
+                <div class="column is-3" id="contact"> 
                         <!--Works like rows-->
                         <span class="icon">
                             <i class="fas fa-address-card"></i>
@@ -167,5 +173,8 @@
     <footer>
      
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

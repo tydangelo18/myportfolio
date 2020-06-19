@@ -3,18 +3,23 @@ body {
 }
 
 html {
-   background-color: rgb(169, 169, 184);
+  background-color: rgb(169, 169, 184);
 }
 
 .navbar {
   min-height: 5rem;
 }
+
 #greetingDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
   margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#greetingTitle {
   font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
   color: #000000;
 }
@@ -31,7 +36,6 @@ html {
   margin-right: 500px;
   margin-left: 500px;
   margin-top: 10px;
-  word-wrap: break-word;
 }
 
 #avatarDiv {
@@ -44,20 +48,22 @@ html {
   width: 225px;
   border: 3px solid black;
   border-radius: 50%;
-  
 }
 
-#projects, #aboutMe {
+#projects {
   border-right: 3px solid rgb(141, 141, 141);
-  margin-right: 10px;
-  padding-left: 83px;
+  display: flex;
+  justify-content: center;
 }
 
 #contact {
-  margin-right: 10px;
-  padding-left: 82px;
+  display: flex;
+  justify-content: center;
 }
 
 .navOption {
   font-family: "Baloo Bhaina 2", "Ubuntu", sans-serif, cursive;
+}
+
+@media screen and (max-width: 767px) {
 }

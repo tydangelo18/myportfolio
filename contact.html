@@ -27,7 +27,7 @@
         rel="stylesheet" />
 
     <!--CSS File-->
-    <link rel="stylesheet" href="assets/style2.css" />
+    <link rel="stylesheet" href="assets/style3.css" />
 </head>
 
 <body>
@@ -38,18 +38,18 @@
                 <a class="navbar-item" id="navbarLogo" href="index.html">
                     <img src="assets/mylogo.png" width="40" height="40">
                 </a>
-
+    
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" id="logoBtn">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-
+    
             <div id="navbarBasicExample" class="navbar-menu" id="navBtns">
                 <div class="navbar-end">
-
-
+    
+    
                     <a class="navbar-item" href="index.html" id="homeBtn">
                         <span class="icon">
                             <!--Each Icon will navigate the user to the corresponding page-->
@@ -69,14 +69,14 @@
                         </span>
                     </a>
                     <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://github.com/tydangelo18" id="githubBtn">
+                    <a class="navbar-item" href="https://github.com/tydangelo18" target="null" id="githubBtn">
                         <span class="icon">
                             <!--Each Icon will navigate the user to the corresponding page-->
                             <i class="fab fa-github"></i>
                         </span>
                     </a>
                     <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://www.linkedin.com/in/tydangelo18" id="linkedInBtn">
+                    <a class="navbar-item" href="https://www.linkedin.com/in/tydangelo18" target="null" id="linkedInBtn">
                         <span class="icon">
                             <!--Each Icon will navigate the user to the corresponding page-->
                             <i class="fab fa-linkedin-in"></i>
@@ -89,10 +89,29 @@
     <section>
         <div class="block" id="titleDiv">
             <span class="icon">
-                <i class="fas fa-address-card fa-2x"></i>
+               <i class="fas fa-address-card fa-2x"></i> 
             </span>
-            <h1 class="title is-1">Let's connect</a>
+            <h1 class="title is-1" id="contactTitle">Let's connect</a>
         </div>
     </section>
+
+    <section>
+        <div class="card">
+            <img src="./assets/Profile Picture.JPG" alt="Tyler D'Angelo" style="width:100%">
+            <h1 class="title is-4">Tyler D'Angelo</h1>
+            <h1 class="title is-6">Full Stack Web Development Student</h1>
+            <p id="email">tydangelo18@gmail.com</p>
+            <p id="phone">(817) 271-4491</p>
+            <a class="cardGithub" href="https://github.com/tydangelo18" target="null"><i class="fab fa-github"></i></a>
+            <a class="cardLinkedIn" href="https://www.linkedin.com/in/tydangelo18" target="null"><i class="fab fa-linkedin-in"></i></a>
+            <p><button>My Resume</button></p>
+        </div>
+    </section> 
+
+    <footer>
+        <br>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
