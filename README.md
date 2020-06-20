@@ -21,4 +21,6 @@ Tyler D'Angelo
 5. [Github](https://github.com/tydangelo18)
 6. [Github Pages](https://tydangelo18.github.io/myportfolio/)
 
-### Kept a simple, UI/UX friendly design using Bulma and semantic HTML
+### Features
+- [x] Kept a simple, UI/UX friendly design using Bulma and semantic HTML
+- [x] Mobile-Responsive
