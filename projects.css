@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2727;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    line-height: 3.0;   
+    text-align: center;
+}
+
+/* Logo */
+img {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#logo a {
+  opacity: 0;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-delay: 2.25s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+  0% {opacity: 0}
+  100% {opacity: 1;}
+}
+
+#weborgDesc, #springboardDesc, #passwordDesc {
+  color: black;
+}
+
+#carouselExampleCaptions {
+  opacity: 0;
+  animation-name: carousel;
+  animation-duration: 2s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes carousel {
+  0% {opacity: 0}
+  100% {opacity: 1;}
+}
+
+#home, #about {
+  font-size: 30px;
+  position: relative;
+  opacity: 0;
+  animation-name: options;
+  animation-duration: 2s;
+  animation-delay: 1.25s;
+  animation-fill-mode: forwards;
+  transition-property: font-size;
+  transition-duration: .2s;
+}
+
+#home h1:hover {
+  font-size: 60px;
+
+}
+
+#about h1:hover {
+  font-size: 60px;
+}
+
+@keyframes options {
+  0% {opacity: 0}
+  100% {opacity: 1;}
+}
+
+
+
+
+
+

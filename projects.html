@@ -1,149 +1,144 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
 
-    <!-- We need the following responsive meta tag to ensure things scale correctly across varying
-        devices. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>My Projects</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Ty D'Angelo - Projects</title>
 
     <!--Reset CSS CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+    />
+
+    <!--Bootstrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
     <!--Font Awesome CDN-->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
 
-    <script src="https://kit.fontawesome.com/db5e26bbb4.js" crossorigin="anonymous"></script>
-
-    <!--Bulma CDN-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css" />
+    <script
+      src="https://kit.fontawesome.com/db5e26bbb4.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Ubuntu:wght@500&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
     <!--CSS File-->
-    <link rel="stylesheet" href="assets/style2.css" />
-</head>
+    <link rel="stylesheet" href="projects.css" />
+  </head>
 
-<body>
-    <!--Navigation Bar-->
-    <div class="block" id="navbarBlock">
-        <nav class="navbar is-warning" role="navigation" aria-label="main navigation" id="navbar">
-            <div class="navbar-brand">
-                <a class="navbar-item" id="navbarLogo" href="index.html">
-                    <img src="assets/mylogo.png" width="40" height="40">
-                </a>
-
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" id="logoBtn">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
+  <body>
+    
+    <!--Logo-->
+    <header id="logo">
+      <a class="headerLogo">
+        <img src="logo.png" width="150" height="150" />
+      </a>
+    </header>
+    
+    <!--Carousel-->
+    <div class="row">
+      <div class="col-md-4" id="home">
+        <a style="text-decoration: none; color: white;" href="index.html">    
+          <h1>Home</h1>
+      </a>
+      </div>
+      <div class="col-md-4">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/springboard.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p id="weborgDesc"></p>
+              </div>
             </div>
-
-            <div id="navbarBasicExample" class="navbar-menu" id="navBtns">
-                <div class="navbar-end">
-
-
-                    <a class="navbar-item" href="index.html" id="homeBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fas fa-home"></i>
-                        </span>
-                    </a>
-                    <a class="navbar-item" href="projects.html" id="projectsBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fas fa-laptop"></i>
-                        </span>
-                    </a>
-                    <a class="navbar-item" href="contact.html" id="contactBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fas fa-address-card"></i>
-                        </span>
-                    </a>
-                    <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://github.com/tydangelo18" target="null" id="githubBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fab fa-github"></i>
-                        </span>
-                    </a>
-                    <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://www.linkedin.com/in/tydangelo18" target="null" id="linkedInBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fab fa-linkedin-in"></i>
-                        </span>
-                    </a>
-                </div>
-        </nav>
+            <div class="carousel-item">
+              <img src="assets/weborg.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p id="springboardDesc"></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/passwordgen.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p id="passwordDesc"></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/planner.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p id="passwordDesc"></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/weatherdash.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p id="passwordDesc"></p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4" id="about">
+        <a style="text-decoration: none; color: white;" href="about.html">    
+          <h1>About</h1>
+      </a>
+      </div>
     </div>
+      
 
-    <section>
-        <div class="block" id="titleDiv">
-            <span class="icon">
-                <i class="fas fa-laptop fa-2x"></i>
-            </span>
-            <h1 class="title is-1" id="projectTitle">Projects</a>
-        </div>
-    </section>
-
-    <section>
-        <div class="passwordPicDiv">
-            <img class="passwordPic" src="./assets/password_generator.jpg" alt="password_generator">
-        </div>
-        <div class="passwordTitleDiv">
-            <h1 class="title is-3">Password Generator</h1>
-        </div>
-        <div class="passwordLiveDiv">
-            <!--Insert Icon-->
-            <a class="passwordLink" href="https://tydangelo18.github.io/randompasswordgenerator/" target="null">
-                <span class="icon">
-                    <i class="fas fa-eye"></i>
-                </span>
-            </a>
-        </div>
-
-        <div class="plannerPicDiv">
-            <img class="plannerPic" src="./assets/day_planner.jpg" alt="day_planner">
-        </div>
-        <div class="plannerTitleDiv">
-            <h1 class="title is-3">Day Planner</h1>
-        </div>
-        <div class="plannerLiveDiv">
-            <!--Insert Icon-->
-            <a class="plannerLink" href="https://tydangelo18.github.io/dayplanner/" target="null">
-                <span class="icon">
-                    <i class="fas fa-eye"></i>
-                </span>
-            </a>
-        </div>
-
-        <div class="springboardPicDiv">
-            <img class="springboardPic" src="./assets/springboard.jpg" alt="springboard_app">
-        </div>
-        <div class="springboardTitleDiv">
-            <h1 class="title is-3">Springboard Travel App</h1>
-        </div>
-        <div class="springboardLiveDiv">
-            <!--Insert Icon-->
-            <a class="springboardLink" href="https://carmenjohnson512.github.io/springboard-app/" target="null">
-                <span class="icon">
-                    <i class="fas fa-eye"></i>
-                </span>
-            </a>
-        </div>
-
-
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+    
     <script src="app.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  
+  
+  </body>
 </html>

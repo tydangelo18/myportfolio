@@ -15,11 +15,10 @@ Tyler D'Angelo
 ### Technologies Used
 
 1. HTML
-2. Bulma
-3. CSS
-4. JQuery
-5. [Github](https://github.com/tydangelo18)
-6. [Github Pages](https://tydangelo18.github.io/myportfolio/)
+2. CSS
+3. Bootstrap
+4. [Github](https://github.com/tydangelo18)
+5. [Github Pages](https://tydangelo18.github.io/myportfolio/)
 
 ### Features
 - [x] Kept a simple, UI/UX friendly design using Bulma and semantic HTML

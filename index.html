@@ -1,180 +1,83 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
+  
+<head>
+    
     <meta charset="UTF-8" />
-
-    <!-- We need the following responsive meta tag to ensure things scale correctly across varying
-        devices. -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <title>Ty D'Angelo</title>
-
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Ty D'Angelo - Full Stack Developer</title>
+    
     <!--Reset CSS CDN-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
     />
-
+    
     <!--Font Awesome CDN-->
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
-    
+
     <script
       src="https://kit.fontawesome.com/db5e26bbb4.js"
       crossorigin="anonymous"
     ></script>
 
-    <!--Bulma CDN-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
-    />
-
     <!--Google Fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Ubuntu:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet"> 
+    
 
     <!--CSS File-->
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="home.css" />
   </head>
 
-  <body>
-    <!--Navigation Bar-->
-    <div class="block" id="navbarBlock">
-        <nav class="navbar is-warning" role="navigation" aria-label="main navigation" id="navbar">
-            <div class="navbar-brand">
-                <a class="navbar-item" id="navbarLogo" href="index.html">
-                    <img src="assets/mylogo.png" width="40" height="40">
-                </a>
+<body>
     
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" id="logoBtn">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
+    <!--Logo-->
+    <header id="logo">
+        <a class="headerLogo">
+            <img src="logo.png" width="150" height="150">
+        </a>
+    </header>
+
+    <!--Options-->
+    <div id="projects">
+        <a style="text-decoration: none; color: white;" href="projects.html">    
+            <h1>Projects</h1>
+        </a>
+    </div>
     
-            <div id="navbarBasicExample" class="navbar-menu" id="navBtns">
-                <div class="navbar-end">
-                   
-                        
-                    <a class="navbar-item" href="index.html" id="homeBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fas fa-home"></i>
-                        </span>
-                    </a>
-                    <a class="navbar-item" href="projects.html" id="projectsBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fas fa-laptop"></i>
-                        </span>
-                    </a>
-                    <a class="navbar-item" href="contact.html" id="contactBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fas fa-address-card"></i>
-                        </span>
-                    </a>
-                    <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://github.com/tydangelo18" target="null" id="githubBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fab fa-github"></i>
-                        </span>
-                    </a>
-                    <!--Make sure this opens in a new tab-->
-                    <a class="navbar-item" href="https://www.linkedin.com/in/tydangelo18" target="null" id="linkedInBtn">
-                        <span class="icon">
-                            <!--Each Icon will navigate the user to the corresponding page-->
-                            <i class="fab fa-linkedin-in"></i>
-                        </span>
-                    </a>
-                </div>
-        </nav>
+    <div id="about">
+        <a style="text-decoration: none; color: white;" href="about.html">    
+            <h1>About</h1>
+        </a>
     </div>
 
-    <section>
-        <!--Website Avatar-->
-        <div class="block" id="avatarDiv">
-            <div class="columns">
-                <div class="column is-12">
-                    <!--Insert Image Here-->
-                    <img class="avatar" src="./assets/Profile Picture.JPG" alt="my avatar">
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--Icons-->
+    <div id="icons">
+        <a style="text-decoration: none;" id="linkedInBtn" href="https://www.linkedin.com/in/tydangelo18/" target="null">
+            <span style="color: white;" class="icon">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+            </span>
+        </a>
 
-    <section>
-        <!--Greeting-->
-        <div class="block" id="greetingDiv">
-            <div class="columns">
-                <div class="column is-12">
-                    <h1 class="title is-1" id="greetingTitle">I'm Ty D'Angelo!</h1>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+        <a style="text-decoration: none;" id="gitHubBtn" href="https://github.com/tydangelo18" target="null">
+            <span style="color: white;" class="icon">
+                <i class="fab fa-github fa-2x"></i>
+            </span>
+        </a>
 
-   <!-- <section>
-        <div class="block" id="subtitleDiv">
-            <div class="columns">
-                <div class="column is-12">
-                    <p class="bio" id="bio">
-                        I am a student at the Full Stack Web Development Bootcamp at
-                        The University of Texas at Austin. I am interested in transitioning
-                        into a career in front-end development. Please check out my projects
-                        and let's get in touch!
-                    </p>
-                </div>
-            </div>
-                    
-        </div>
-    </section> -->
-
-    <section>
-        <div class="block">
-            <div class="columns">
-                <div class="column is-3" id="spaceLeft">
-                    <!--Creates Space-->
-                </div>
-                <div class="column is-3" id="projects">
-                    
-                        <!--Works like rows-->
-                        <span class="icon">
-                            <i class="fas fa-laptop"></i>
-                        </span>
-                        <a href="projects.html" class="navOption">Projects</a>
-                </div>
-                <div class="column is-3" id="contact"> 
-                        <!--Works like rows-->
-                        <span class="icon">
-                            <i class="fas fa-address-card"></i>
-                        </span>
-                        <a href="contact.html" class="navOption">Contact</a>
-                </div>
-                <div class="column is-3" id="spaceRight">
-                    <!--Creates Space-->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-     
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+        <a style="text-decoration: none;" id="twitterBtn" href="https://twitter.com/tydangelo18" target="null">
+            <span style="color: white;" class="icon">
+                <i class="fab fa-twitter fa-2x"></i>
+            </span>
+        </a>
+    </div>
+  
+</body>
 </html>
