@@ -11,6 +11,81 @@ body {
     text-align: center;
 }
 
+ 
+ .overlay { 
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: black; 
+  overflow-x: hidden; 
+  transition: 0.5s; 
+}
+
+
+.overlay-content {
+  position: relative;
+  top: 25%; 
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px; 
+  line-height: 3.0;
+}
+
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  display: block; 
+  transition: 0.3s; 
+}
+
+
+.overlay a:hover {
+  font-size: 60px;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: xx-large;
+  transition-property: font-size;
+  transition-duration: .2s;
+}
+
+.overlay .closebtn:hover {
+    font-size: xxx-large;
+}
+
+#menuBtn {
+  color: white;
+  padding: 15px 20px;  
+  font-size: xx-large;
+  transition-property: font-size;
+  transition-duration: .2s;
+}
+
+#menuBtn:hover {
+    font-size: xxx-large;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+} 
+
 /* Logo */
 img {
   margin-top: 10px;

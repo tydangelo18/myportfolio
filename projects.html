@@ -45,6 +45,24 @@
   </head>
 
   <body>
+
+    <!--Menu-->
+<div id="myNav" class="overlay">
+    
+  <!-- Close Menu -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <i class="far fa-times-circle"></i>
+  </a>
+
+  <!-- Options -->
+  <div class="overlay-content">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+  </div>
+
+</div>
+
+
     
     <!--Logo-->
     <header id="logo">
@@ -55,23 +73,40 @@
     
     <div class="carousel-wrapper">
       <div class="carousel">
-  
-        <img class="carousel__photo initial" src="assets/springboard.png">
-        <img class="carousel__photo" src="assets/weborg.png">
-        <img class="carousel__photo" src="assets/dayplanner.png">
-        <img class="carousel__photo" src="assets/password.png">
-        <img class="carousel__photo" src="assets/weather.png">
+        <div class="carousel-images">
+          <a href="https://github.com/tydangelo18/springboard-app" target="null">
+            <img class="carousel__photo initial" src="assets/springboard.png">
+          </a>
+          <a href="https://github.com/tydangelo18/Web_Organizer" target="null">
+            <img class="carousel__photo" src="assets/weborg.png">
+          </a>  
+          <a href="https://github.com/tydangelo18/dayplanner" target="null">
+            <img class="carousel__photo" src="assets/dayplanner.png">
+          </a>
+          <a href="https://github.com/tydangelo18/randompasswordgenerator" target="null">
+            <img class="carousel__photo" src="assets/password.png">
+          </a>
+          <a href="https://github.com/tydangelo18/weatherdashboard" target="null">
+            <img class="carousel__photo" src="assets/weather.png">
+          </a>
+        </div>
+          
+          
       <div class="button-div">
         <div class="carousel__button--next"></div>
         <div class="carousel__button--prev"></div>
       </div>
       </div>
     </div>
+
+    <div class="menuBtn">
+      <!--Open Menu-->
+      <span onclick="openNav()">
+        <i class="fas fa-bars fa-2x" id="menuBtn"></i>
+      </span>
+    </div>
       
 
-    
-    
-    
     <script src="app.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

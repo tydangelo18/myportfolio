@@ -1,3 +1,13 @@
+// Open Menu on Click
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+  
+// Close Menu on Click
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+} 
+
 !(function(d){
     // Variables to target our base class,  get carousel items, count how many carousel items there are, set the slide to 0 (which is the number that tells us the frame we're on), and set motion to true which disables interactivity.
     var itemClassName = "carousel__photo";
