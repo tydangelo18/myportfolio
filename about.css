@@ -9,64 +9,132 @@ body {
   color: white;
   font-family: 'Exo 2', sans-serif;
   line-height: 3.0;   
-  text-align: center;
-  display: grid;
-  place-items: center;
+  
 }
 
-/* Logo */
-img {
-margin-top: 10px;
+.flexcontainer {
+  display: flex;
 }
 
-#logo a {
-opacity: 0;
-animation-name: logo;
-animation-duration: 3s;
-animation-delay: 2.85s;
-animation-fill-mode: forwards;
-}
-
-@keyframes logo {
-0% {opacity: 0}
-100% {opacity: 1;}
-}
-
-#options {
-  margin-top: 25px;
-}
-
-#homeBtn {
-  position: relative;
-  font-size: large;
+.menu {
+  order: 2;
+  flex: 0 0 50%;
+  text-align: right;
+  padding: 10px 10px 0 0;
   opacity: 0;
-  padding: 10px;
-  animation-name: home;
+  animation-name: menu;
   animation-duration: 3s;
-  animation-delay: 2.85s;
+  animation-delay: 2.90s;
   animation-fill-mode: forwards;
-  transition-property: font-size;
-  transition-duration: .2s;
-}
-
-#homeBtn:hover {
-  font-size: xx-large;
-}
-
-@keyframes home {
-  0% {opacity: 0;}
+  }
+  
+  @keyframes menu {
+  0% {opacity: 0}
   100% {opacity: 1;}
+  }
+
+.logo {
+ order: 1;
+ flex: 0 0 50%;
+ padding: 10px;
+ opacity: 0;
+ animation-name: logo;
+ animation-duration: 3s;
+ animation-delay: 2.90s;
+ animation-fill-mode: forwards;
+ }
+ 
+ @keyframes logo {
+ 0% {opacity: 0}
+ 100% {opacity: 1;}
+ }
+
+
+.overlay { 
+height: 100%;
+width: 0;
+position: fixed; 
+z-index: 1; 
+left: 0;
+top: 0;
+background-color: black; 
+overflow-x: hidden; 
+transition: 0.5s; 
 }
+
+
+.overlay-content {
+position: relative;
+top: 25%; 
+width: 100%; 
+text-align: center; 
+margin-top: 30px; 
+line-height: 3.0;
+}
+
+
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 30px;
+color: white;
+display: block; 
+transition: 0.3s; 
+}
+
+
+.overlay a:hover {
+font-size: 60px;
+}
+
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: xx-large;
+transition-property: font-size;
+transition-duration: .2s;
+}
+
+.overlay .closebtn:hover {
+  font-size: xxx-large;
+}
+
+#menuBtn {
+color: white;
+padding: 15px 20px;  
+font-size: xx-large;
+transition-property: font-size;
+transition-duration: .2s;
+}
+
+#menuBtn:hover {
+  font-size: xxx-large;
+}
+
+
+
+@media screen and (max-height: 450px) {
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+}
+} 
 
 
 .container {
   max-width: 700px;
   margin: auto;
   padding: 0 0px;
+  
 }
 
 #showcase {
   height: 135px;
+  
 }
 
 #showcase h1 {
@@ -75,7 +143,8 @@ animation-fill-mode: forwards;
   position: relative;
   animation: heading;
   animation-duration: 3s;
-  animation-fill-mode: forwards; /* Keeps the title in the same place after animation is finished */
+  animation-fill-mode: forwards; 
+  text-align: center;
 
 }
 #subTitle h2 {
@@ -84,7 +153,8 @@ animation-fill-mode: forwards;
   position: relative;
   animation: subtitle;
   animation-duration: 3s;
-  animation-fill-mode: forwards; /* Keeps the title in the same place after animation is finished */
+  animation-fill-mode: forwards; 
+  text-align: center;
 
 }
 
@@ -108,6 +178,7 @@ animation-fill-mode: forwards;
 
 #content {
     position: relative;
+    text-align: center;
     animation-name: content;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -122,7 +193,10 @@ animation-fill-mode: forwards;
     }
   }
 
-  /* Use this for Logo */
+  #resumeBtn {
+    text-align: center;
+  }
+
   .btn {
       display: inline-block;
       color: white;
@@ -152,6 +226,7 @@ animation-fill-mode: forwards;
 
   #icons {
     margin-top: 35px;
+    text-align: center;
 }
 
 #linkedInBtn {

@@ -14,11 +14,6 @@
 
     <!--Font Awesome CDN-->
     <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
-
-    <script
       src="https://kit.fontawesome.com/db5e26bbb4.js"
       crossorigin="anonymous"
     ></script>
@@ -33,23 +28,40 @@
     <link rel="stylesheet" href="about.css" />
   </head>
 </head>
-<div>
-    
-    <!--Logo-->
-    <header id="logo">
-        <a class="headerLogo">
-          <img src="logo.png" width="150" height="150" />
-        </a>
-    </header>
+<body>
+  
+   <!--Menu-->
+   <div id="myNav" class="overlay">
 
-    <div id="options">
-      <a style="text-decoration: none;" id="homeBtn" href="index.html">
-        <span style="color: white;" class="icon">
-            <i class="fas fa-home fa-2x"></i>
-        </span>
+    <!-- Close Menu -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        <i class="far fa-times-circle"></i>
     </a>
+
+    <!-- Options -->
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
     </div>
-    
+
+  </div>
+  <!--Menu and Logo-->
+  <div class="flexcontainer">
+      <div class="menu">
+          <!--Open Menu-->
+          <span onclick="openNav()">
+              <i class="fas fa-bars fa-2x" id="menuBtn"></i>
+          </span>
+      </div>
+      <div class="logo">
+          <a class="headerLogo">
+              <img src="logo.png" width="60" height="60" />
+          </a>
+      </div>
+  </div>
+  
+  
+  <div>
     <header id="showcase">
       <h1>Ty D'Angelo</h1>
     </header>
@@ -63,7 +75,10 @@
       HTML, CSS, Javascript, JQuery, AJAX, Node,js, Express, MySql, MongoDB, Mongoose, React.js, Heroku,
       Git, and cross-browser responsive web design. 
     </div>
-    <a href="assets/Tech Resume.pdf" target="null" class="btn">Resume</a>
+    <div id="resumeBtn">
+      <a href="assets/Tech Resume.pdf" target="null" class="btn">Resume</a>
+    </div>
+   
 
     <!--Icons-->
     <div id="icons">
@@ -87,7 +102,7 @@
   </div>
     
 
-    
+    <script src="app.js"></script>
 
 </body>
 </html>

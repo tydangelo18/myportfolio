@@ -4,7 +4,7 @@ This is my website which contains my portfolio, resume, and contact info (includ
 
 ## Live Link
 
-- [Ty's Website](https://tydangelo18.github.io/myportfolio/)
+- [My Website](https://tydangelo18.github.io/myportfolio/)
 
 ### Contributors
 
@@ -16,10 +16,17 @@ Tyler D'Angelo
 
 1. HTML
 2. CSS
-3. Bootstrap
-4. [Github](https://github.com/tydangelo18)
-5. [Github Pages](https://tydangelo18.github.io/myportfolio/)
+3. Javascript
 
 ### Features
-- [x] Kept a simple, UI/UX friendly design using Bulma and semantic HTML
+- [x] Semantic HTML
 - [x] Mobile-Responsive
+- [x] Dynamic Menu
+- [x] CSS Animations
+- [x] Carousel with links to my project repos
+- [x] Links to my LinkedIn and Github profiles
+
+### Future Development
+- Email Icon so that users may send me an email directly from my about page. 
+- Carousel Overlay with project names, summaries and my contributions. 
+- Deployment to Heroku. 
